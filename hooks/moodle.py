@@ -1,7 +1,7 @@
 import requests
 from api import API_PERMISSIONS
 
-HUBURL = "https://moodle.net/local/sitecheck/check.php"
+HUBURL = "https://stats.moodle.org/local/sitecheck/check.php"
 
 def process_pushnotification_payload(data):
     extra = data.get('extra', {})
